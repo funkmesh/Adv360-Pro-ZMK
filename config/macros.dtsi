@@ -1,8 +1,26 @@
+macro_desktop_4: macro_desktop_4{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_4";
+#binding-cells = <0>;
+bindings = <&mt LCTRL NUMBER_4>;
+};
+macro_desktop_3: macro_desktop_3{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_3";
+#binding-cells = <0>;
+bindings = <&mt LCTRL NUMBER_3>;
+};
+macro_desktop_2: macro_desktop_2{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_2";
+#binding-cells = <0>;
+bindings = <&mt LCTRL NUMBER_1>;
+};
 macro_desktop_1: macro_desktop_1{
 compatible = "zmk,behavior-macro";
 label = "macro_desktop_1";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>;
+bindings = <&mt LCTRL NUMBER_1>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
